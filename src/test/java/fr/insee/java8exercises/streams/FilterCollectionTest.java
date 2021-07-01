@@ -1,10 +1,10 @@
 package fr.insee.java8exercises.streams;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static fr.insee.java8exercises.streams.FilterCollection.*;
+import static fr.insee.java8exercises.streams.FilterCollection.stringsShorterThant4Characters;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 

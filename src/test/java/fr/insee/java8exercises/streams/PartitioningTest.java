@@ -1,13 +1,11 @@
 package fr.insee.java8exercises.streams;
 
-import org.junit.Test;
-
-import fr.insee.java8exercises.streams.Person;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.Map;
 
-import static fr.insee.java8exercises.streams.Partitioning.*;
+import static fr.insee.java8exercises.streams.Partitioning.partitionAdults;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 

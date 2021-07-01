@@ -19,4 +19,5 @@ public class PeopleStats {
         }
         return new Stats(people.size(), sum, min, max);
     }
+
 }

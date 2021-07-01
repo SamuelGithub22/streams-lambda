@@ -14,4 +14,5 @@ public class Sum {
         }
         return total;
     }
+
 }

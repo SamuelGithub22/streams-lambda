@@ -17,4 +17,5 @@ public class FlatCollection {
         }
         return newCollection;
     }
+
 }

@@ -2,8 +2,10 @@ package fr.insee.java8exercises.streams;
 
 public class Person {
 
-    private String name;
-    private int age;
+    private final String name;
+
+    private final int age;
+
     private String nationality;
 
     public Person(final String nameValue, final int ageValue) {

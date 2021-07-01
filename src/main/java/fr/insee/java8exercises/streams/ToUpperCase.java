@@ -15,4 +15,5 @@ public class ToUpperCase {
         }
         return newCollection;
     }
+
 }

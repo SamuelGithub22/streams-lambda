@@ -2,10 +2,13 @@ package fr.insee.java8exercises.streams;
 
 public class Stats {
 
-    private long count;
-    private long sum;
-    private int min;
-    private int max;
+    private final long count;
+
+    private final long sum;
+
+    private final int min;
+
+    private final int max;
 
     public Stats(final long countValue,
                  final long sumValue,
